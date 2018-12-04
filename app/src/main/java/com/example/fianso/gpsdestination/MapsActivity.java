@@ -73,6 +73,18 @@ public class MapsActivity extends AppCompatActivity {
 
         new DirectionFinder((DirectionFinderListener) this, origin, destination).execute();
     }
+	
+	/*
+    @Override
+    public void onDirectionFinderStart() {
+        this.mMapService.onDirectionFinderStart();
+    }
 
+    @Override
+    public void onDirectionFinderSuccess(List<Route> routes) {
+
+        this.mMapService.onDirectionFinderSuccess(routes);
+    }
+*/
 
 }
